@@ -16,10 +16,10 @@ android {
         kotlinOptions.freeCompilerArgs += ['-module-name', "$GROUP_ID.$ARTIFACT_ID"]
     }
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
-        versionName "0.1.1"
+        versionName "0.1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
