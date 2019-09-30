@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android-extensions'
 
 ext {
     GROUP_ID = 'araib.me'
-    ARTIFACT_ID = 'play-games-module'
+    ARTIFACT_ID = 'core'
 }
 
 android {
