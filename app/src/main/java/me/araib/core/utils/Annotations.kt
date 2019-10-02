@@ -31,7 +31,7 @@ annotation class ExposedProvideFunction(
     val author: String = "",
     val modifiedBy: Array<String> = [],
     val purpose: String,
-    val returns: String = ""
+    val returns: Array<String> = []
 )
 
 /**
@@ -47,7 +47,7 @@ annotation class ExposedImplementFunction(
     val author: String = "",
     val modifiedBy: Array<String> = [],
     val purpose: String,
-    val returns: String = ""
+    val returns: Array<String> = []
 )
 
 /**
